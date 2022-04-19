@@ -8,4 +8,8 @@ public class MembershipDAO {
 		System.out.println(getClass()+" 新增會員帳號");
 		return true;
 	}
+	public boolean doSleep() {
+		System.out.println(getClass()+"Going To Sleep");
+		return true;
+	}
 }
